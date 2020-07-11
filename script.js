@@ -7,8 +7,8 @@ function acepto(){
     limpiar_btn.style.display="none"
 }
 function mover(){
-    var aleatorio_x= Math.floor(Math.random()*(100)); 
-    var aleatorio_y= Math.floor(Math.random()*(100)); 
+    var aleatorio_x= Math.floor(Math.random()*(100))-20; 
+    var aleatorio_y= Math.floor(Math.random()*(100))-20; 
     var boton = document.querySelector(".btn-no");
     boton.style.position="absolute";
     boton.style.top= aleatorio_x+"%";
