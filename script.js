@@ -1,15 +1,19 @@
 function acepto(){
-    var mensaje = document.createElement("div");
-    mensaje.innerHTML="Sabía que dirías que sí :)";
-    document.body.appendChild(mensaje);
+    var mensaje = document.querySelector(".respuesta");
+    mensaje.style.display="block";
+    var limpiar_div = document.querySelector("div");
+    limpiar_div.style.display="none"
+    var limpiar_btn = document.querySelector("button");
+    limpiar_btn.style.display="none"
 }
 function mover(){
-    var aleatorio_x= Math.floor(Math.random()*(450)); 
-    var aleatorio_y= Math.floor(Math.random()*(450)); 
+    var aleatorio_x= Math.floor(Math.random()*(100)); 
+    var aleatorio_y= Math.floor(Math.random()*(100)); 
     var boton = document.querySelector(".btn-no");
     boton.style.position="absolute";
-    boton.style.top= aleatorio_x+"px";
-    boton.style.left=aleatorio_y+"px";
-    console.log(aleatorio_y + " " + aleatorio_x)
+    boton.style.top= aleatorio_x+"%";
+    boton.style.left=aleatorio_y+"%";
+    console.log(aleatorio_y + " " + aleatorio_x);
+    console.log(w + " " +h);
     
 }
