@@ -4,9 +4,9 @@ body{
 }
 
 button{
-    width: 20%;
-    height: 30%;
-    font-size: 50px;
+    width: 25%;
+    height: 35%;
+    font-size: 45px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: black;
     color: white;
@@ -32,8 +32,8 @@ button{
 }
 .respuesta{
     display: none;
-    width: 55%;
-    height: 35%;
+    width: 65%;
+    height: 45%;
     overflow: hidden;
     background-color: tomato;
     position: absolute;
